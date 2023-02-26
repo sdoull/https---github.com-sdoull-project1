@@ -1,13 +1,15 @@
-body{
-    background-color: black;
+.navbar{
+    background-color: blue;
 }
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-flow: space-between;
+    align-items: baseline;
+}
+
 .img-container1 {
-    height: 40px;
-    float: left;
-    width: 13.33%;
-    padding: 3px 10px 3px 10px;
-}
-.img-container {
-    height: 40px;
-    
+width: 40px;
+background-color: blue;
+
 }

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halifax Canoe and Kayak</title>
     <a rel="stylesheet" href="home.css"></a>
+    <a rel="javastylesheet" href="home.js" ></a>
 </head>
 
-<body>
-    <nav><!--top menu and navigation hamburger menu-->
+<body class="trip">
+    <nav id="navbar" class="navbar"><!--top menu and navigation hamburger menu-->
         <div id="menu" class="menu">
             <div class="img-container1">
                 <img src="images/hamburger.png" alt="hamburger menu image and link">
@@ -22,13 +22,55 @@
             <div class="img-container1">
                 <img src="images/paddle-white.png" alt="">
             </div>
-            <div><!--hidden menu list-->
+            <div id="hamburgermenu" class="hamburger"><!--hidden menu list-->
                 <a href="#Home">Home</a><br>
                 <a href="#Book Trip"> Book Trip</a><br>
                 <a href="#Admin Login">Admin Login</a><br>
             </div>
         </div>
     </nav>
+    <div id="main-img" class="main-img"><!--main page image and title-->
+        <div>
+            <img src="images/canoe.jpg" alt="canoe on the waters edge">
+        </div>
+        <div>
+            <h2 id="imagetxt" class="imagetxt1">Halifax Canoe and Kayak</h2>
+        </div>
+    </div>
+    <div><!--page text filler content-->
+        <div id="tripheader" class="tripheader">
+            <h2>Up Coming Adventures!</h2>
+        </div>
+        <div id="trip1-info" class="trip1">
+            <div id="trip1-location" class="trip1">
+                Halifax
+            </div>
+            <div id="trip1-date" class="trip1">
+                July 20th- July 25th
+            </div>
+            <div id="trip1-txt" class="trip1">
+                Come join along with others on an adventure around the inner halifax area.
+                Exploring the lakes in around town that are hidden around your ever beloved city.
+            </div>
+            <div id="trip1-img" class="trip1">
+                <img src="images/Lake-Banook-2.jpg" alt="paddle boarder on halifax/ Darthmouth Lake">
+            </div>
+        </div>
+        <div id="trip2-info" class="trip2">
+            <div id="trip1-location" class="trip2">
+                Annapolis Valley River
+            </div>
+            <div id="trip2-date" class="trip2">
+                June 15th-June 20th
+            </div>
+            <div id="trip2-txt" class="trip2">
+                Travel down the vallery along the Annapolis valley river.
+            </div>
+            <div id="trip2-img" class="trip2">
+                <img src="images/a0cdc1f5c9bdaa4745e01fc7f9423142_large.jpg" alt="view of the annaoplis valley river">
+            </div>
+        </div>
+    </div>
 
 </body>
 
