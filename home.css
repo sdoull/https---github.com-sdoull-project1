@@ -1,17 +1,58 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+/* Start Top Nav */
 .navbar{
     background-color: rgb(10, 10, 110);
-    display: flex;
-    flex-direction: row;
-    flex-flow: space-around;
-    align-items: stretch;
-    justify-content: space-between;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
- 
-    
-   
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    box-shadow: 15px 15px 20px 10px rgba(0,0,0,.8); 
 }
-
-
+h2 {
+    color: white;
+}
+.topRightIcon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.topLeftMenuIcon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.middleText {
+    text-align: center;
+}
+/* End Top Nav */
+/* Start Left Toggle Nav */
+.hamburger {
+    width: 20%;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    height: 100vh;
+    background-color: green;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+}
+/* End Left Toggle Nav */
+.mainContents {
+ width: 1200px;
+ margin: auto;
+}
+.topBannerImg  {
+    background-image: url('images/canoe.jpg');
+    width: 1200px;
+    height: 800px;
+    
+}
 .img-container1 {
 width: 40px;
 height: 40px;
@@ -25,8 +66,6 @@ box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 flex-direction: row;
 flex-flow: space-around;
 align-items: stretch;
-
-
 }
 .trip{
     background-color: rgb(22, 21, 21);
@@ -49,7 +88,6 @@ align-items: stretch;
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
     align-items: stretch;
 }
-
 .hamburger {
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
@@ -58,14 +96,12 @@ align-items: stretch;
     display: flex;
     justify-content: center;
 }
-
 /* image text */
 .imgtxt1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 .imgtxt1 {
     font-family: 'Courier New', Courier, monospace;
@@ -92,15 +128,12 @@ align-items: stretch;
 .trip1 {
     font-family: 'Courier New', Courier, monospace;
     font-size:small;
-    color: #ffffff;
+    color: #FFFFFF;
     display:flex;
     align-items: center;
-   
 }
-
 #trip1txt {
     margin: 2%;
-
 }
 #trip1location {
     font-size: large;
