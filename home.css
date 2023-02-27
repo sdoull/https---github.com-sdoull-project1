@@ -1,15 +1,109 @@
 .navbar{
-    background-color: blue;
-}
-.menu {
+    background-color: rgb(10, 10, 110);
     display: flex;
     flex-direction: row;
-    flex-flow: space-between;
-    align-items: baseline;
+    flex-flow: space-around;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+ 
+    
+   
 }
+
 
 .img-container1 {
 width: 40px;
-background-color: blue;
+height: 40px;
+background-color: rgb(6, 6, 60);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 0;
+margin: 0;
+box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+flex-direction: row;
+flex-flow: space-around;
+align-items: stretch;
 
+
+}
+.trip{
+    background-color: rgb(22, 21, 21);
+}
+.img-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow:2px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    align-items: stretch;
+}
+
+.hamburger {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+/* top image*/
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* image text */
+.imgtxt1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.imgtxt1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow:2px, 2px, #000000;
+}
+.trip1img {
+    width: 500px;
+    height: 500px;
+    box-shadow:2px,2px, #000000;
+    border: #000000;
+    display: flex;
+    border: #000000;
+    border-radius: 500px;
+}
+#trip2img {
+    width: 50%;
+    height: 50%;
+    box-shadow:10px, 10px, #000000;
+    border: #000000;
+    border-radius: 5px;
+    display: block;
+}
+.trip1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:small;
+    color: #ffffff;
+    display:flex;
+    align-items: center;
+   
+}
+
+#trip1txt {
+    margin: 2%;
+
+}
+#trip1location {
+    font-size: large;
+    display: flex;
+    margin: 2%;
 }
