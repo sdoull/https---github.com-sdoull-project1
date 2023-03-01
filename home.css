@@ -2,6 +2,7 @@ body,
 html {
     padding: 0px;
     margin: 0px;
+    max-width: 1200px;
 }
 
 /* Start Top Nav */
@@ -12,12 +13,14 @@ html {
     top: 0px;
     width: 100%;
     box-shadow: 15px 15px 20px 10px rgba(0, 0, 0, .8);
+    max-width: 1200px;
 
 }
 
 h2 {
     color: white;
     text-shadow: 2px, 4px, 4px, rgba(0, 0, 0, .8);
+  
 
 }
 
@@ -48,7 +51,7 @@ h2 {
 
 /*main contents*/
 .mainContents {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -194,6 +197,7 @@ h2 {
 
 .mainContents {
     padding: 0%;
+    max-width: 1200px;
  
 }
 
