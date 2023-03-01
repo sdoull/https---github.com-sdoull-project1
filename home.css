@@ -194,7 +194,7 @@ h2 {
 
 .mainContents {
     padding: 0%;
-
+ 
 }
 
 /*burger menu*/
@@ -249,9 +249,21 @@ h2 {
     color: #ffffff;
     background-color: #00a58d;
     align-items: baseline;
+   width: 15%;
 
 }
+@media screen and (max-width: 1200px) {
+    .viewport {
+        width: 100%;
+	max-width: 1200px;
+    }
+}
 
+@media screen and (max-width:768) {
+    .viewport {
+        font-size: 12px;
+    }
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -266,22 +278,3 @@ h2 {
 
 
 
-@media screen and (max-width:768) {
-    .veiwport {
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .veiwport {
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 1200px) {
-    .veiwport {
-        max-width: 1200px;
-           }
-
-}
