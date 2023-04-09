@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,62 +48,8 @@
             </nav>
 
         </nav>
-    </header>
-
-    </div>
-
-    <!--page text filler content-->
-    <div class="mainContents">
-        <div id="main-img" class="topBannerImg"><!--main page image and title-->
-           <div>
-                <div id="imagetxt" class="overlay-text">
-                    <h1>Come Experience Nova Scotia</h1>
-                </div>
-            </div> 
-        </div>
-         <!-- End main-img -->
-        <div id="tripheader" class="tripheader">
-            <h2>Up Coming Adventures!</h2>
-        </div>
-        <div id="trip1-info" class="trip1">
-            <div id="trip1location" class="trip1">
-                Halifax
-            </div>
-            
-            <div id="trip1date" class="trip1date">
-                July 20th- July 25th
-            </div>
-            <div id="trip1txt" class="trip1">
-                Come join along with others on an <br>
-                adventure around the inner halifax area. <br>
-                Exploring the lakes in around town that <br>
-                are hidden around your ever beloved city. <br>
-            </div>
-            <div id="trip1img" class="trip1img">
-                <img src="images/Lake-Banook-2.jpg"  alt="paddle boarder on halifax/ Darthmouth Lake" height="500px">
-            </div>
-        </div>
-        <button class="button">book Now!</button>
-        <div id="trip2info" class="trip2">
-            <div id="trip1location" class="trip2">
-                Annapolis Valley River
-            </div>
-           
-            <div id="trip2date" class="trip2date">
-                June 15th-June 20th
-            </div>
-            <div id="trip2txt" class="trip2txt">
-                Travel down the vallery along the Annapolis valley river.
-            </div>
-            <div id="trip2img" class="trip2">
-                <img src="images/a0cdc1f5c9bdaa4745e01fc7f9423142_large.jpg" alt="view of the annaoplis valley river">
-            </div>
-        </div> <button class="button">book Now!</button>
-    </div> <!-- End mainContents-->
-</body>
-<footer>
+    </header><footer>
     <div class="fbtn" id="fbtn">Contact Us at 
         <a href="Test@email.com">Test@email.com</a>
     </div>
 </footer>
-</html>

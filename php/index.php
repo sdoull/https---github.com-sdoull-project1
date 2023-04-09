@@ -1,3 +1,20 @@
+<?php // Start the session
+	session_start();
+?>
+
+<?php
+    /* Attempt MySQL server connection. Assuming you are running MySQL
+    server with default setting (user 'root' with no password) */
+
+    $conn = mysqli_connect("localhost", "root", "", "myDBname");
+     
+    // Check connection
+    if($conn === false){
+        die("ERROR: Could not connect. " . mysqli_connect_error());
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +49,7 @@
                         <a href="send-email.php">send email</a>
                     </div>
                     <li class="item">
-                        <a href="#" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
+                        <a href="logout.php" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
                     </li>
                 </div>
 
@@ -47,52 +64,7 @@
             </nav>
 
         </nav>
-    </header>
-
-   
-    <div>
-        <a href="logout.php" class="rightSide paddingRightOnly">Logout</a>
-
-    </div>
-
-    <div id="welcomeBox" class="welcomeBox">
-
-        <h1 class="middleText2">Welcome to you IT Support System</h1>
-        <br>
-
-        <form action="problem.php" method="POST">
-
-            <div class="whiteBg leftSide">
-                <select title="theTitle" class="firstFormField inARow">
-                    <option value="Mr">Mr</option>
-                    <option value="Mrs">Mrs</option>
-                    <option value="Dr">Dr</option>
-                    <option value="Mx">Mx</option>
-                </select>
-
-                <input title="firstName" type="text" class="inARow" placeholder="First Name">
-
-                <input title="lastName" type="text" class="inARow" placeholder="Last Name">
-
-                <select title="role" class="inARow">
-                    <option value="Admin">Admin</option>
-                    <option value="Manager">Manager</option>
-                    <option value="CEO">CEO</option>
-                </select>
-            </div>
-
-            <input type="submit" name="submit" value="Submit" class="lastFormField blueButton">
-
-
-        </form>
-
-
-        <br>
-
-
-    </div>
-</body>
-<footer>
+    </header><footer>
     <div class="fbtn" id="fbtn">Contact Us at 
         <a href="Test@email.com">Test@email.com</a>
     </div>

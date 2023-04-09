@@ -2,44 +2,45 @@ body,
 html {
     padding: 0px;
     margin: 0px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 /* Start Top Nav */
 .navbar {
     background-color: #040558;
     height: 58px;
-    position: absolute;
+    position:static;
     top: 0px;
     width: 100%;
-    box-shadow: 15px 15px 20px 10px rgba(0, 0, 0, .8);
-    max-width: 1200px;
+    box-shadow: 15px 15px 20px 10px rgba(61, 61, 61, 0.8);
+    /* max-width: 1200px; */
 
 }
 
 h2 {
     color: white;
     text-shadow: 2px, 4px, 4px, rgba(0, 0, 0, .8);
-  
+
 
 }
 
 .middleText {
     position: absolute;
-    right: 45%;
+    right: 40%;
     top: 1%;
-    text-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8)
+    text-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8),
+
 }
 
 .topRightIcon {
     position: absolute;
-    right: 0px;
+    right: 5px;
     top: 0px;
 }
 
 .topLeftMenuIcon {
     position: absolute;
-    left: 0px;
+    left: 5px;
     top: 0px;
 }
 
@@ -98,7 +99,7 @@ h2 {
 }
 
 .trip {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(58, 58, 58);
 
 }
 
@@ -198,7 +199,7 @@ h2 {
 .mainContents {
     padding: 0%;
     max-width: 1200px;
- 
+
 }
 
 /*burger menu*/
@@ -231,7 +232,7 @@ h2 {
     font-size: 35px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -248,20 +249,23 @@ h2 {
     font-size: 50px;
     margin-left: 50px;
 }
+
 /* button to book a trip options*/
 .button {
     color: #ffffff;
     background-color: #00a58d;
     align-items: baseline;
-   width: 15%;
+    width: 15%;
 
 }
+
 @media screen and (max-width: 1200px) {
     .viewport {
         width: 100%;
-	max-width: 1200px;
+        max-width: 1200px;
     }
 }
+
 @media screen and (max-width:1024) {
     .viewport {
         font-size: 15px;
@@ -294,10 +298,11 @@ h2 {
     overflow: hidden;
 }
 
+
 .btn {
     display: block;
     padding: 16px 20px;
-    background: #17c0eb;
+    background: #015267;
     color: white;
     position: relative;
 }
@@ -307,7 +312,7 @@ h2 {
     position: absolute;
     width: 14px;
     height: 14px;
-    background: #17c0eb;
+    background: #012933;
     left: 20px;
     bottom: -7px;
     transform: rotate(45deg);
@@ -351,3 +356,74 @@ h2 {
 .item:target .smenu {
     max-height: 10em;
 }
+
+.welcomeBox {
+    padding-top: 50px;
+    box-shadow: 3px 3px 5px 2px rgba(55, 55, 55, 0.8);
+    border: 1px solid #000000;
+    text-shadow: 2px, 4px, 4px, rgba(69, 69, 69, 0.8);
+    text-align: center;
+    margin: 250px;
+    background-color: #015267;
+
+}
+
+.middleText2 {
+    padding: auto;
+    text-shadow: 2px, 4px, 4px, rgba(69, 69, 69, 0.8);
+    display: inline-block;
+    align-items: center;
+}
+.fbtn{
+    text-align: center;
+    padding: 5px;
+    background-color: #040558;
+    color: #f1f1f1;
+}
+
+         
+         .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+            color: #017572;
+         }
+         
+         .form-signin .form-signin-heading,
+         .form-signin .checkbox {
+            margin-bottom: 10px;
+         }
+         
+         .form-signin .checkbox {
+            font-weight: normal;
+         }
+         
+         .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+         }
+         
+         .form-signin .form-control:focus {
+            z-index: 2;
+         }
+         
+         .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color:#017572;
+         }
+         
+         .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-color:#017572;
+         }
+         
+        

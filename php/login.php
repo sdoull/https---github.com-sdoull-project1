@@ -1,4 +1,18 @@
-<!DOCTYPE html>
+<?php
+ob_start();
+session_start();
+?>
+<?
+   // error_reporting(E_ALL);
+   // ini_set("display_errors", 1);
+?>
+
+<html lang = "en">
+   
+   <head>
+      <title>Tutorialspoint.com</title>
+      <link href = "css/bootstrap.min.css" rel = "stylesheet">
+      <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,10 +22,13 @@
     <title>Halifax Canoe and Kayak</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
-    <!-- Fontawesome 5-->
+    <!--  Fontawesome 5 -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
-</head>
+      
+      
+   </head>
+	
 
 
 
@@ -48,61 +65,51 @@
 
         </nav>
     </header>
-
-    </div>
-
-    <!--page text filler content-->
-    <div class="mainContents">
-        <div id="main-img" class="topBannerImg"><!--main page image and title-->
-           <div>
-                <div id="imagetxt" class="overlay-text">
-                    <h1>Come Experience Nova Scotia</h1>
-                </div>
-            </div> 
-        </div>
-         <!-- End main-img -->
-        <div id="tripheader" class="tripheader">
-            <h2>Up Coming Adventures!</h2>
-        </div>
-        <div id="trip1-info" class="trip1">
-            <div id="trip1location" class="trip1">
-                Halifax
-            </div>
+    </div> <h2>Enter Username and Password</h2> 
+      <div class = "container form-signin">
+         
+         <?php
+            $msg = '';
             
-            <div id="trip1date" class="trip1date">
-                July 20th- July 25th
-            </div>
-            <div id="trip1txt" class="trip1">
-                Come join along with others on an <br>
-                adventure around the inner halifax area. <br>
-                Exploring the lakes in around town that <br>
-                are hidden around your ever beloved city. <br>
-            </div>
-            <div id="trip1img" class="trip1img">
-                <img src="images/Lake-Banook-2.jpg"  alt="paddle boarder on halifax/ Darthmouth Lake" height="500px">
-            </div>
-        </div>
-        <button class="button">book Now!</button>
-        <div id="trip2info" class="trip2">
-            <div id="trip1location" class="trip2">
-                Annapolis Valley River
-            </div>
-           
-            <div id="trip2date" class="trip2date">
-                June 15th-June 20th
-            </div>
-            <div id="trip2txt" class="trip2txt">
-                Travel down the vallery along the Annapolis valley river.
-            </div>
-            <div id="trip2img" class="trip2">
-                <img src="images/a0cdc1f5c9bdaa4745e01fc7f9423142_large.jpg" alt="view of the annaoplis valley river">
-            </div>
-        </div> <button class="button">book Now!</button>
-    </div> <!-- End mainContents-->
-</body>
-<footer>
+            if (isset($_POST['login']) && !empty($_POST['username']) 
+               && !empty($_POST['password'])) {
+				
+               if ($_POST['username'] == 'tutorialspoint' && 
+                  $_POST['password'] == '1234') {
+                  $_SESSION['valid'] = true;
+                  $_SESSION['timeout'] = time();
+                  $_SESSION['username'] = 'tutorialspoint';
+                  
+                  echo 'You have entered valid use name and password';
+               }else {
+                  $msg = 'Wrong username or password';
+               }
+            }
+         ?>
+      </div> <!-- /container -->
+      
+      <div class = "container">
+      
+         <form class = "form-signin" role = "form" 
+            action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); 
+            ?>" method = "post">
+            <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
+            <input type = "text" class = "form-control" 
+               name = "username" placeholder = "username = tutorialspoint" 
+               required autofocus></br>
+            <input type = "password" class = "form-control"
+               name = "password" placeholder = "password = 1234" required>
+            <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
+               name = "login">Login</button>
+         </form>
+			
+         Click here to clean <a href = "logout.php" tite = "Logout">Session.
+         
+      </div> 
+      
+        
+      </body>
+      <footer>
     <div class="fbtn" id="fbtn">Contact Us at 
         <a href="Test@email.com">Test@email.com</a>
-    </div>
-</footer>
-</html>
+</footer> -->
