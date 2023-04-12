@@ -2,34 +2,64 @@
 
 <?php
   
-// Initialize the session
-session_start();
-       
-// Store the submitted data sent
-// via POST method, stored 
-  
-// Temporarily in $_POST structure.
-$_SESSION['title'] = $title;
-        $_SESSION['firstName'] = $firstName;
-        $_SESSION['lastName'] = $lastName;
-        $_SESSION['role'] = $role;
-           
+ 
+        $titleFromForm = $_POST['theTitle'];
+        $firstNameFromForm = $_POST['firstName'];
+        $lastNameFromForm = $_POST['lastName'];
+        $theRoleFromForm = $_POST['theRole'];
+
+        // You could echo out each one just show your work. Comment it out later
+        echo "The role you have selected is: $theRoleFromForm";
+
+        // Now because we have them as simple var with data, we can set them as session vars 
+        $_SESSION["firstNameSess"] = $firstNameFromForm;
+        $_SESSION["lastNameSess"] = $lastNameFromForm;
+        $_SESSION["theRoleFromForm"] = $lastNameFromForm;
+
+
+
 ?>
 
 
-<?php
-$_SESSION['title'] = $title;
-        $_SESSION['firstName'] = $firstName;
-        $_SESSION['lastName'] = $lastName;
-        $_SESSION['role'] = $role;
+<br> <p> </p> <br> <p> 
 
-if ($_SESSION['role'] =="admin") {echo "<h2><a href='new-account.php'>New account</a><br><a href='isnt-working.php'>isnt-working</a>  </h2> ";
-                }
+
+<?php
+
+
+
+        if ($theRoleFromForm =="Admin") {
+
+               echo "<h2 class= list>
+                Select option
+                <br>
+                <a href='send-email.php'>New account</a>
+                <br>
+                <a href='isnt-working.php'>isnt-working</a>
+                </h2> 
+                ";
+        }
         
-                if ($_SESSION['role'] =="manager") {echo "<a href='lost-password.php'>Lost password</a><br><a href='isnt-working.php'>isnt-working</a>   ";
-                }
+        if ($theRoleFromForm =="Manager") {
+                echo "<h2 class=list>
+                Select option
+                <br>
+                <a href='lost-password.php'>Lost password</a>
+                <br>
+                <a href='isnt-working.php'>isnt-working</a>  
+                </h2>
+                 ";
+        }
         
-                if ($_SESSION['role'] =="ceo") {echo "<a href='need-help.php'>Need Help</a><br><a href='isnt-working.php'>isnt-working</a>  ";
+        if ($theRoleFromForm =="CEO") {
+                echo "<h2 class=list>
+                Select option
+                <br>
+                <a href='need-help.php'>Need Help</a>
+                <br>
+                <a href='isnt-working.php'>isnt-working</a> 
+                </h2>
+                 ";
                 }
 
 ?>
