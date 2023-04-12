@@ -1,15 +1,14 @@
 <?php include 'header.php'; ?>
 
 <?php
-  
+//   do you see what i did..applied what you showed me and applied it to another form and figured out how to link a page! YESSS!!!
  
         $theissueFromForm = $_POST['theissue'];
 
 
-        // You could echo out each one just show your work. Comment it out later
         echo "The role you have selected is: $theissueFromForm ";
 
-        // Now because we have them as simple var with data, we can set them as session vars 
+  
         $_SESSION["theissueFromForm "] = $theissueFromForm ;
 
 
