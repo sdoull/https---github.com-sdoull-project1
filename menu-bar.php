@@ -1,5 +1,3 @@
-session_destroy(); 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +24,7 @@ session_destroy();
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="index.html">Home</a>
                     <a href="#BookTrip">Book Trip</a>
-                    <a href="supporthelp.html" class="btn" oneclick="closeNav">Admin Support</a>
+                    <a href="index.php" class="btn" oneclick="openNav">Admin Support</a>
                     <div class="smenu"> <!-- submenu with admin links -->
                         <a href="new-account.php">New Account</a>
                         <a href="lost-password.php">Lost Password</a>
@@ -45,12 +43,12 @@ session_destroy();
                 <div><!-- top nav contents-->
                     <h2 class="middleText">Halifax Canoe and Kayak</h2>
                 </div>
+                <!-- </div> <span class="username"><?php echo  "User:<br>" . $_SESSION["username_DB"];   ?> </span>
+                <h1>HCK IT Support</h1> -->
                 <img class="topRightIcon" src="images/paddle-white.png" alt="" width="50">
             </nav>
 
         </nav>
-    </header><footer>
-    <div class="fbtn" id="fbtn">Contact Us at 
-        <a href="Test@email.com">Test@email.com</a>
-    </div>
-</footer>
+    </header>
+<?php include 'connection.php'; ?>
+    
