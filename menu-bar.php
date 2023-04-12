@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,12 +8,15 @@
     <title>Halifax Canoe and Kayak</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
+    <!-- Fontawesome 5-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 </head>
 
-<body>
-	
-	<header>
+
+
+<body class="trip">
+    <header>
         <nav class="navbar"><!--top menu and navigation hamburger menu-->
             <!-- <div id="menu" class="menu"> -->
             <nav>
@@ -21,7 +24,16 @@
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="index.html">Home</a>
                     <a href="#BookTrip">Book Trip</a>
-                    <a href="supporthelp.html">Admin Login</a>
+                    <a href="index.php" class="btn" oneclick="openNav">Admin Support</a>
+                    <div class="smenu"> <!-- submenu with admin links -->
+                        <a href="new-account.php">New Account</a>
+                        <a href="lost-password.php">Lost Password</a>
+                        <a href="isnt-work.php">Website Is not working</a>
+                        <a href="send-email.php">send email</a>
+                    </div>
+                    <li class="item">
+                        <a href="#" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
+                    </li>
                 </div>
 
                 <!-- icon for hamburger menu -->
@@ -31,55 +43,12 @@
                 <div><!-- top nav contents-->
                     <h2 class="middleText">Halifax Canoe and Kayak</h2>
                 </div>
+                <!-- </div> <span class="username"><?php echo  "User:<br>" . $_SESSION["username_DB"];   ?> </span>
+                <h1>HCK IT Support</h1> -->
                 <img class="topRightIcon" src="images/paddle-white.png" alt="" width="50">
             </nav>
 
         </nav>
     </header>
-
-    </div>
-
-<div>
-<a href="logout.php" class="rightSide paddingRightOnly">Logout</a>
-
-</div>
-
-
-
-<div id="welcomeBox">
-
-	<h1 class="middleText">Welcome to you IT Support System</h1>
-	<br>
-
-	<form action="problem.php" method="POST">
-
-		<div class="whiteBg leftSide">
-		<select title="theTitle" class="firstFormField inARow">
-			<option value="Mr">Mr</option>
-			<option value="Mrs">Mrs</option>
-			<option value="Dr">Dr</option>
-			<option value="Mx">Mx</option>
-		</select>
-
-		<input title="firstName" type="text" class="inARow" placeholder="First Name">
-
-		<input title="lastName" type="text" class="inARow" placeholder="Last Name">
-
-		<select title="role" class="inARow">
-			<option value="Admin">Admin</option>
-			<option value="Manager">Manager</option>
-			<option value="CEO">CEO</option>
-		</select>
-		</div>
-
-		<input type="submit" name="submit" value="Submit" class="lastFormField blueButton">
-		
-
-	</form>
-
-
-	<br>
-
-
-</div>
- </body>
+<?php include 'connection.php'; ?>
+    

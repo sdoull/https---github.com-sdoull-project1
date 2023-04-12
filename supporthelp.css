@@ -1,0 +1,64 @@
+.welcomebox {
+    margin: 1%;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    border: 3px solid #000000;
+
+}
+
+/*main contents*/
+.mainContents {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* top image*/
+.topBannerImg {
+    background-image: url('images/canoe.jpg');
+    width: 1200px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Start Top Nav */
+.navbar {
+    background-color: #040558;
+    height: 58px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    box-shadow: 15px 15px 20px 10px rgba(0, 0, 0, .8);
+    max-width: 1200px;
+
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px, 4px, 4px, rgba(0, 0, 0, .8);
+  
+
+}
+
+.middleText {
+    position: absolute;
+    right: 45%;
+    top: 1%;
+    text-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8)
+}
+
+.topRightIcon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.topLeftMenuIcon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.middleText {
+    text-align: inherit;
+
+}
