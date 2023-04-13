@@ -44,7 +44,7 @@
                 echo "<h2 class=list>
                 Select option
                 <br>
-                <a href='lost-password.php'>Lost password</a>
+                <a href='send-email.php'>Lost password</a>
                 <br>
                 <a href='isnt-working.php'>isnt-working</a>  
                 </h2>
