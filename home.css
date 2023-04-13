@@ -290,212 +290,98 @@ h2 {
     }
 }
 
-
-
-
-/* .sidenav {
-    border-top: 1px solid #18dcff;
-    overflow: hidden;
-}
-
-
-.btn {
-    display: block;
-    padding: 16px 20px;
-    background: #015267;
-    color: white;
-    position: relative;
-}
-
-.btn::before {
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    background: #012933;
-    left: 20px;
-    bottom: -7px;
-    transform: rotate(45deg);
-}
-
-.btn i {
-    margin-right: 10px;
-}
-
-.smenu {
-    background: #333;
-    overflow: hidden;
-    transition: max-height 0.3s;
-    max-height: 0;
-}
-
-.smenu a {
-    display: block;
-    padding: 16px 26px;
-    color: white;
-    margin: 4px 0;
-    position: relative;
-}
-
-.smenu a::before {
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 100%;
-    background: #18dcff;
-    left: 0;
-    top: 0;
-    transition: .3s;
-    opacity: 0;
-}
-
-.smenu a:hover::before {
-    opacity: 1;
-}
-
-.item:target .smenu {
-    max-height: 10em;
-} */
+/* the form  */
 
 .welcomeBox {
-    padding-top: 50px;
-    box-shadow: 3px 3px 5px 2px rgba(55, 55, 55, 0.8);
-    border: 1px solid #000000;
-    text-shadow: 2px, 4px, 4px, rgba(69, 69, 69, 0.8);
-    text-align: center;
-    margin: 250px;
-    background-color: #015267;
-
+    margin: 200px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    border: 3px solid #000000;
+  display: flexbox;
+   width: 50%;
+   margin-left: 25%;
+   padding: 10px;
+   
 }
 
-.middleText2 {
-    padding: auto;
-    text-shadow: 2px, 4px, 4px, rgba(69, 69, 69, 0.8);
-    display: inline-block;
-    align-items: center;
+.whiteBgleftSide {
+    padding: 50px;
+    border: #000000;
+    background-color: #00a58d;
+text-align: center;
+
+
+       
 }
+.firstFormFieldinARow {
+    border: #000000;
+margin: 10px;
+font-size: 20px;
+
+    
+}
+.middleText2a {
+background-color: #00a58d;
+   text-align: center;
+  font-size: 50px;
+}
+
+.lastFormFieldblueButton {
+ margin-left: 45%;
+ font-size: 20px;
+}
+.lastname {
+    font-size: 20px;
+}
+.firstname {
+    font-size: 20px;
+}
+
+
+.inARow {
+    font-size: 20px;
+}
+
+
+
+
+
+/* the footer */
 
 .fbtn {
-    text-align: center;
-    padding: 5px;
     background-color: #040558;
-    color: #f1f1f1;
-}
-
-
-.form-signin {
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
-    color: #017572;
-}
-
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-    margin-bottom: 10px;
-}
-
-.form-signin .checkbox {
-    font-weight: normal;
-}
-
-.form-signin .form-control {
-    position: relative;
-    height: auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     padding: 10px;
-    font-size: 16px;
-}
-
-.form-signin .form-control:focus {
-    z-index: 2;
-}
-
-.form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-color: #017572;
-}
-
-.form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-color: #017572;
-}
-
-
-
-
-
-
-/* email account form */
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* Add padding to containers */
-.container {
-    padding: 16px;
-    background-color: white;
-}
-
-/* Full-width input fields */
-input[type=text],
-input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-
-input[type=text]:focus,
-input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-/* Set a style for the submit button */
-.registerbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.registerbtn:hover {
-    opacity: 1;
-}
-
-/* Add a blue text color to links */
-a {
-    color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-    background-color: #f1f1f1;
     text-align: center;
 }
+
+
+
+/* problem page layout */
+
+.list {
+    font-size: 50px;
+    text-align: center;
+    border: #000000;
+   background-color: #f9f9f9;
+   display: block;
+   width: 50%;
+   color: #000000;
+   margin-left: 350px;
+}
+
+
+/* isntworking page */
+
+.isntwork {
+    margin-left: 150px;
+    padding: 200px;
+}
+
+.ceonumber {
+
+ display: block;
+margin: 350px; ;
+ 
+ padding-left: 200px;
+  
+}
+

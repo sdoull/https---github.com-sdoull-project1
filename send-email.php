@@ -4,7 +4,7 @@
     
 
 
-<form class="emailform" role="form" name="contactform" id="contactform" method="POST" action="send.php" enctype="multipart/form-data">
+<form class="emailform" role="form" name="contactform" id="contactform" method="POST" action="problem2.php" enctype="multipart/form-data">
     <div class="emailform" class="row">
        <div class="col-md-6">
             <div class="input-text form-group">
@@ -17,6 +17,11 @@
                                         <input type="text" name="contact_phone" class="input-name form-control" placeholder="Phone Number" />
                                     </div>
                                 </div>
+                                <select name="theissue" class="formissue">
+                    <option value="Newaccount">New account</option>
+                    <option value="Lostpassword">Lost Password</option>
+
+                </select>
                                 <div class="col-md-6">
 
                                     <div class="input-text form-group">

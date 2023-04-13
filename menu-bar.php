@@ -22,17 +22,17 @@
             <nav>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="index.html">Home</a>
+                    <a href="oldindex.html">Home</a>
                     <a href="#BookTrip">Book Trip</a>
                     <a href="index.php" class="btn" oneclick="openNav">Admin Support</a>
-                    <div class="smenu"> <!-- submenu with admin links -->
+                    <!-- <div class="smenu"> submenu with admin links 
                         <a href="new-account.php">New Account</a>
                         <a href="lost-password.php">Lost Password</a>
                         <a href="isnt-work.php">Website Is not working</a>
                         <a href="send-email.php">send email</a>
-                    </div>
+                    </div> -->
                     <li class="item">
-                        <a href="#" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
+                        <a href="logout.php" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
                     </li>
                 </div>
 

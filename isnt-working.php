@@ -1,8 +1,7 @@
-
 <?php include 'header.php'; ?>
 
 <body>
-    <img src="images/pun.jpg" alt="">
+    <img class= "isntwork" src="images/imgyoda.jpg" alt="">
 </body>
 
 <?php include 'footer.php'; ?>
