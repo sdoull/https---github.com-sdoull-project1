@@ -22,7 +22,7 @@
             <nav>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="index.html">Home</a>
+                    <a href="oldindex.html">Home</a>
                     <a href="#BookTrip">Book Trip</a>
                     <a href="index.php" class="btn" oneclick="openNav">Admin Support</a>
                     <!-- <div class="smenu"> submenu with admin links 
