@@ -28,7 +28,6 @@
                         <a href="logout.php" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
                     </li>
                 </div>
-
                 <!-- icon for hamburger menu -->
                 <span onclick="openNav()"><img
                         src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/hamburger.png" alt=""
@@ -36,7 +35,7 @@
                 <div><!-- top nav contents-->
                     <h2 class="middleText">Halifax Canoe and Kayak</h2>
                 </div>
-                <?php echo  "User:<br>" . $_SESSION["username_DB"];   ?> 
+                <!-- <?php echo  "User:<br>" . $_SESSION["username_DB"];   ?>  -->
                 <img class="topRightIcon" src="images/paddle-white.png" alt="" width="50">
             </nav>
 
