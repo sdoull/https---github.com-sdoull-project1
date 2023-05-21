@@ -13,9 +13,16 @@
     <label for="Duration"><b>Duration</b></label>
     <input type="text" placeholder="" name="heading" required>
 
-    <label for="Summary"><b>Summary</b></label>
-    <input type="text" placeholder="" name="heading" required>
+   
+  <label for="tripDate">Trip Date:</label>
+  <input type="date" id="TripDate" name="Trip Date">
+
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+
 
     <button type="submit" class="btn">Login</button>
   </form>
 </div>
+
+<?php include 'footer.php'; ?>
