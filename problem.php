@@ -38,7 +38,7 @@
                 <a href='isnt-working.php'>Isnt-working</a>
                 </h2> 
                 <br>
-                <a href='admin.add.php'>Add Travel</a>
+                <a href='admin-add.php'>Add Travel</a>
                 </h2> 
                 ";
         }
