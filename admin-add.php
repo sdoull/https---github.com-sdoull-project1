@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-
+<Body>
 <div class="bg-img">
   <form action="/action_page.php" class="container">
     <h1>Admin- Add Adventure</h1>
@@ -24,5 +24,5 @@
     <button type="submit" class="btn">Login</button>
   </form>
 </div>
-
+</Body>
 <?php include 'footer.php'; ?>
