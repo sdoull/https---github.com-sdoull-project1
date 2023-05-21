@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<Body>
+<Body class=addtrip>
 <div class="bg-img">
   <form action="/action_page.php" class="container">
     <h1>Admin- Add Adventure</h1>
@@ -18,10 +18,10 @@
   <input type="date" id="TripDate" name="Trip Date">
 
   <input type="file" id="myFile" name="filename">
-  <input type="submit">
+ 
 
 
-    <button type="submit" class="btn">Login</button>
+    <button type="submit" class="btn">Submit</button>
   </form>
 </div>
 </Body>
