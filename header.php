@@ -14,7 +14,6 @@
     <title>Halifax Canoe and Kayak</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
-    <!-- Fontawesome 5-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 </head>

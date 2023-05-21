@@ -8,7 +8,6 @@
     <title>Halifax Canoe and Kayak</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
-    <!-- Fontawesome 5-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 </head>
@@ -25,13 +24,7 @@
                     <a href="oldindex.html">Home</a>
                     <a href="#BookTrip">Book Trip</a>
                     <a href="index.php" class="btn" oneclick="openNav">Admin Support</a>
-                    <!-- <div class="smenu"> submenu with admin links 
-                        <a href="new-account.php">New Account</a>
-                        <a href="lost-password.php">Lost Password</a>
-                        <a href="isnt-work.php">Website Is not working</a>
-                        <a href="send-email.php">send email</a>
-                    </div> -->
-                    <li class="item">
+                                     <li class="item">
                         <a href="logout.php" class="btn"><i class="fa fa-sign-out-alt"></i> Logout</a>
                     </li>
                 </div>
@@ -43,8 +36,7 @@
                 <div><!-- top nav contents-->
                     <h2 class="middleText">Halifax Canoe and Kayak</h2>
                 </div>
-                <!-- </div> <span class="username"><?php echo  "User:<br>" . $_SESSION["username_DB"];   ?> </span>
-                <h1>HCK IT Support</h1> -->
+                <?php echo  "User:<br>" . $_SESSION["username_DB"];   ?> 
                 <img class="topRightIcon" src="images/paddle-white.png" alt="" width="50">
             </nav>
 

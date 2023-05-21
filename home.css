@@ -2,7 +2,6 @@ body,
 html {
     padding: 0px;
     margin: 0px;
-    /* max-width: 1200px; */
 }
 
 /* Start Top Nav */
@@ -13,7 +12,6 @@ html {
     top: 0px;
     width: 100%;
     box-shadow: 15px 15px 20px 10px rgba(61, 61, 61, 0.8);
-    /* max-width: 1200px; */
 
 }
 
@@ -63,7 +61,6 @@ h2 {
     height: 800px;
     background-repeat: no-repeat;
     background-position: center center;
-
 
 }
 
@@ -205,24 +202,16 @@ h2 {
 /*burger menu*/
 .sidenav {
     height: 100%;
-    /* 100% Full-height */
     width: 0;
-    /* 0 width - change this with JavaScript */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Stay on top */
     top: 0;
-    /* Stay at the top */
     left: 0;
     background-color: #040558;
-
     overflow-x: hidden;
-    /* Disable horizontal scroll */
     padding-top: 100px;
-    /* Place content 60px from the top */
     transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidenav */
+   
 }
 
 /* The navigation menu links */
@@ -235,13 +224,13 @@ h2 {
     transition: 0.5s;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
     color: #f1f1f1;
 
 }
 
-/* Position and style the close button (top right corner) */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -279,7 +268,7 @@ h2 {
     }
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
