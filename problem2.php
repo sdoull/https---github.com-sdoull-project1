@@ -1,7 +1,6 @@
 <?php include 'header.php'; ?>
 
 <?php
-//   do you see what i did..applied what you showed me and applied it to another form and figured out how to link a page! YESSS!!!
  
         $theissueFromForm = $_POST['theissue'];
 

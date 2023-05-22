@@ -14,10 +14,19 @@
     <title>Halifax Canoe and Kayak</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
-    <!-- Fontawesome 5-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 </head>
 
 <?php require 'menu-bar.php';?>
 <body>
+    <!-- Attempt MySQL server connection. Assuming you are running MySQL server with default setting (user 'root' with no password)
+DB is skillsprojet3
+Table trips -->
+    <?php
+    $conn = mysqli_connect("localhost", "root", "", "skillsproject3", );
+    // check connection
+    if($conn === false){
+        die("ERROR: Could not connect. " . mysqli_connect_error());
+    }
+    ?>
