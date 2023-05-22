@@ -16,17 +16,11 @@
         $_SESSION["lastNameSess"] = $lastNameFromForm;
         $_SESSION["theRoleFromForm"] = $lastNameFromForm;
 
-
-
 ?>
-
 
 <br> <p> </p> <br> <p> 
 
-
 <?php
-
-
 
         if ($theRoleFromForm =="Admin") {
 
@@ -36,10 +30,9 @@
                 <a href='send-email.php'>New account</a>
                 <br>
                 <a href='isnt-working.php'>Isnt-working</a>
-                </h2> 
                 <br>
                 <a href='admin-add.php'>Add Travel</a>
-                </h2> 
+                 </h2> 
                 ";
         }
         

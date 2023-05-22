@@ -1,4 +1,6 @@
 <?php include 'header.php'; ?>
+
+
 <Body class=addtrip>
 <div class="bg-img">
   <form action="/action_page.php" class="container">
@@ -7,8 +9,7 @@
     <label for="Heading"><b>Heading</b></label>
     <input type="text" placeholder="" name="heading" required>
 
-    <label for="TripDate"><b>Trip Date</b></label>
-    <input type="tripdate" placeholder="" name="psw" required>
+   
 
     <label for="Duration"><b>Duration</b></label>
     <input type="text" placeholder="" name="heading" required>
@@ -19,9 +20,10 @@
 
   <input type="file" id="myFile" name="filename">
  
+ <label for="summary" class="summ"><b>summary</b></label>
+    <input type="Summary" placeholder="" name="sum" required>
 
-
-    <button type="submit" class="btn">Submit</button>
+    <button type="trsubmit" class="tribtn">Submit</button>
   </form>
 </div>
 </Body>
