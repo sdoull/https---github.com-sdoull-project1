@@ -24,7 +24,7 @@
 DB is skillsprojet3
 Table trips -->
     <?php
-    $conn = mysqli_connect("localhost", "root", "", "skillsproject3", );
+    $conn = mysqli_connect("localhost", "root", "", "skillsproject2", );
     // check connection
     if($conn === false){
         die("ERROR: Could not connect. " . mysqli_connect_error());
