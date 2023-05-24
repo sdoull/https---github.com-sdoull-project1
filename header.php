@@ -21,12 +21,13 @@
 <?php require 'menu-bar.php';?>
 <body>
     <?php
-    $conn = mysqli_connect("localhost", "id20597685_root", "1Password!", "id20597685_skillsproject3",);
+    // $conn = mysqli_connect("localhost", "id20597685_root", "1Password!", "id20597685_skillsproject3",);
+    $conn = mysqli_connect("localhost", "root", "", "skillsproject3",);
     // check connection
     if($conn === false){
         die("ERROR: Could not connect. " . mysqli_connect_error());
     }
-    ?>
+    ?>   
 
         
  
