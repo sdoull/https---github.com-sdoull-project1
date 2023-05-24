@@ -33,7 +33,6 @@
                 <div>
                     <h2 class="middleText">Halifax Canoe and Kayak</h2>
                 </div>
-             <?php echo  "User:<br>" . $_SESSION["username_DB"];   ?> 
                 <img class="topRightIcon" src="images/paddle-white.png" alt="" width="50">
             </nav>
 

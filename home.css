@@ -211,7 +211,7 @@ h2 {
     overflow-x: hidden;
     padding-top: 100px;
     transition: 0.5s;
-   
+
 }
 
 /* The navigation menu links */
@@ -285,42 +285,46 @@ h2 {
     margin: 200px;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
     border: 3px solid #000000;
-  display: flexbox;
-   width: 50%;
-   margin-left: 25%;
-   padding: 10px;
-   
+    display: flexbox;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+
 }
 
 .whiteBgleftSide {
     padding: 50px;
     border: #000000;
     background-color: #00a58d;
-text-align: center;
+    text-align: center;
 
 
-       
+
 }
+
 .firstFormFieldinARow {
     border: #000000;
-margin: 10px;
-font-size: 20px;
+    margin: 10px;
+    font-size: 20px;
 
-    
+
 }
+
 .middleText2a {
-background-color: #00a58d;
-   text-align: center;
-  font-size: 50px;
+    background-color: #00a58d;
+    text-align: center;
+    font-size: 50px;
 }
 
 .lastFormFieldblueButton {
- margin-left: 45%;
- font-size: 20px;
+    margin-left: 45%;
+    font-size: 20px;
 }
+
 .lastname {
     font-size: 20px;
 }
+
 .firstname {
     font-size: 20px;
 }
@@ -350,11 +354,11 @@ background-color: #00a58d;
     font-size: 50px;
     text-align: center;
     border: #000000;
-   background-color: #f9f9f9;
-   display: block;
-   width: 50%;
-   color: #000000;
-   margin-left: 350px;
+    background-color: #f9f9f9;
+    display: block;
+    width: 50%;
+    color: #000000;
+    margin-left: 350px;
 }
 
 
@@ -367,56 +371,53 @@ background-color: #00a58d;
 
 .ceonumber {
 
- display: block;
-margin: 350px; ;
- 
- padding-left: 200px;
-  
+    display: block;
+    margin: 350px;
+    padding-left: 200px;
+
 }
 
 .addtrip {
-    
-        height: 100%;
-      }
-      
-      * {
-        box-sizing: border-box;
-      }
-      
-      .bg-img {
-        background-image: url("images/giphy.gif");
-        min-height: 550px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-      
-      .container {
-        position: relative;
-        right: 0;
-        margin: 20px;
-        max-width: 300px;
-        padding: 16px;
-        background-color: white;
-        margin-top: 0%;
-      }
-      
-    
-      .tribtn {
-        background-color: #04AA6D;
-        color: white;
-        padding: 16px 20px;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        opacity: 0.9;
-      }
-      
-      .tribtn:hover {
-        opacity: 1;
-      }
-/* .summ {
-    width: 300px;
-    height: 150px;
-} */
+
+    height: 100%;
+}
+
+.bg-img {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url("images/giphy.gif");
+    min-height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.containeradmin {
+    position: relative;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin-top: 0%;
+}
+
+
+.tribtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+   
+}
+
+.tribtn:hover {
+    opacity: 1;
+}
+

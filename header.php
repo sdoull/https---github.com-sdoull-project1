@@ -20,9 +20,6 @@
 
 <?php require 'menu-bar.php';?>
 <body>
-    <!-- Attempt MySQL server connection. Assuming you are running MySQL server with default setting (user 'root' with no password)
-DB is skillsprojet3
-Table trips -->
     <?php
     $conn = mysqli_connect("localhost", "root", "", "skillsproject3", );
     // check connection
